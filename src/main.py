@@ -94,10 +94,17 @@ async def part4_attacks():
     red_default, red_default_runner = create_red_agent_default()
     await test_agent(red_default, red_default_runner)
 
+    import asyncio
+    print("\nĐang chờ 30s trước khi tấn công để tránh lỗi 429...")
+    await asyncio.sleep(30)
+    
     print("\n--- Attacks on Red ---")
     unsafe_results = await run_attacks(
         red_default, red_default_runner, target_name="red_default"
     )
+
+    print("\nĐang chờ 30s trước khi tấn công Red Advance để tránh lỗi 429...")
+    await asyncio.sleep(30)
 
     print("\n--- Attacks on Red Advance (bonus B2 tối đa +10 nếu LEAKED; chọn 1) ---")
     red_advance, red_advance_runner = create_red_agent_advance()

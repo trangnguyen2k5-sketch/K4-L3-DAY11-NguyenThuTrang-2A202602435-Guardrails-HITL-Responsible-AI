@@ -1,0 +1,122 @@
+[
+  {
+    "request_id": "safe_0",
+    "user_id": "user1",
+    "input": "safe_query_0",
+    "start_time": "2026-09-26T08:14:07.752335+00:00",
+    "output": "safe_response",
+    "blocked": false,
+    "layer": null,
+    "latency": 0.00011301040649414062
+  },
+  {
+    "request_id": "safe_1",
+    "user_id": "user1",
+    "input": "safe_query_1",
+    "start_time": "2026-09-26T08:14:07.752445+00:00",
+    "output": "safe_response",
+    "blocked": false,
+    "layer": null,
+    "latency": 2.86102294921875e-06
+  },
+  {
+    "request_id": "safe_2",
+    "user_id": "user1",
+    "input": "safe_query_2",
+    "start_time": "2026-09-26T08:14:07.752450+00:00",
+    "output": "safe_response",
+    "blocked": false,
+    "layer": null,
+    "latency": 1.9073486328125e-06
+  },
+  {
+    "request_id": "safe_3",
+    "user_id": "user1",
+    "input": "safe_query_3",
+    "start_time": "2026-09-26T08:14:07.752453+00:00",
+    "output": "safe_response",
+    "blocked": false,
+    "layer": null,
+    "latency": 2.1457672119140625e-06
+  },
+  {
+    "request_id": "safe_4",
+    "user_id": "user1",
+    "input": "safe_query_4",
+    "start_time": "2026-09-26T08:14:07.752456+00:00",
+    "output": "safe_response",
+    "blocked": false,
+    "layer": null,
+    "latency": 2.1457672119140625e-06
+  },
+  {
+    "request_id": "attack_0",
+    "user_id": "user2",
+    "input": "attack_query_0",
+    "start_time": "2026-09-26T08:14:07.752461+00:00",
+    "output": "Blocked",
+    "blocked": true,
+    "layer": "input_guardrail",
+    "latency": 1.9073486328125e-06
+  },
+  {
+    "request_id": "attack_1",
+    "user_id": "user2",
+    "input": "attack_query_1",
+    "start_time": "2026-09-26T08:14:07.752464+00:00",
+    "output": "Blocked",
+    "blocked": true,
+    "layer": "input_guardrail",
+    "latency": 2.86102294921875e-06
+  },
+  {
+    "request_id": "attack_2",
+    "user_id": "user2",
+    "input": "attack_query_2",
+    "start_time": "2026-09-26T08:14:07.752471+00:00",
+    "output": "Blocked",
+    "blocked": true,
+    "layer": "input_guardrail",
+    "latency": 1.9073486328125e-06
+  },
+  {
+    "request_id": "attack_3",
+    "user_id": "user2",
+    "input": "attack_query_3",
+    "start_time": "2026-09-26T08:14:07.752474+00:00",
+    "output": "Blocked",
+    "blocked": true,
+    "layer": "input_guardrail",
+    "latency": 1.9073486328125e-06
+  },
+  {
+    "request_id": "attack_4",
+    "user_id": "user2",
+    "input": "attack_query_4",
+    "start_time": "2026-09-26T08:14:07.752478+00:00",
+    "output": "Blocked",
+    "blocked": true,
+    "layer": "input_guardrail",
+    "latency": 2.1457672119140625e-06
+  },
+  {
+    "request_id": "attack_5",
+    "user_id": "user2",
+    "input": "attack_query_5",
+    "start_time": "2026-09-26T08:14:07.752481+00:00",
+    "output": "Blocked",
+    "blocked": true,
+    "layer": "input_guardrail",
+    "latency": 9.5367431640625e-07
+  },
+  {
+    "request_id": "attack_6",
+    "user_id": "user2",
+    "input": "attack_query_6",
+    "start_time": "2026-09-26T08:14:07.752483+00:00",
+    "output": "Blocked",
+    "blocked": true,
+    "layer": "input_guardrail",
+    "latency": 2.1457672119140625e-06
+  }
+]
